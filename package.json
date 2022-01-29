@@ -36,7 +36,8 @@
     "build": "jsii",
     "build:watch": "jsii -w",
     "package": "jsii-pacmak",
-    "prepackage": "jsii && lambda/build"
+    "prepackage": "jsii && lambda/build",
+    "prepare": "npm run prepackage"
   },
   "jsii": {
     "excludeTypescript": [
