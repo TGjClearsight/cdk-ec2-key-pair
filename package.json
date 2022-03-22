@@ -36,8 +36,7 @@
     "build": "jsii",
     "build:watch": "jsii -w",
     "package": "jsii-pacmak",
-    "prepackage": "jsii && lambda/build",
-    "prepare": "npm run prepackage"
+    "prepackage": "jsii && lambda/build"
   },
   "jsii": {
     "excludeTypescript": [
@@ -66,7 +65,7 @@
   },
   "peerDependencies": {
     "aws-cdk-lib": "^2.0.0",
-    "cdk-iam-floyd": "^0.300.0",
-    "constructs": "^10.0.0"
+    "cdk-iam-floyd": "^0.342.0",
+    "constructs": "^10.0.91"
   }
 }
